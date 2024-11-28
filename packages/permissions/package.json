@@ -1,0 +1,16 @@
+{
+  "name": "@reddit/permissions",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "dependencies": {
+    "@casl/ability": "^6.7.1",
+    "typescript": "latest",
+    "zod": "^3.23.8"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  }
+}
